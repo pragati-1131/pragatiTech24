@@ -1,9 +1,9 @@
-
-<aura:component  controller="Studentinsertion">
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction,lightning:isUrlAddressable"
+                access="global">
  
-    <aura:attribute name="firstname" type="String" />
-    <aura:attribute name="lastname" type="String" />
-    <aura:attribute name="dateofbirth" type="Date" />
+    <aura:attribute name="firstName" type="String" />
+    <aura:attribute name="lastName" type="String" />
+    <aura:attribute name="dateOfBirth" type="Date" />
     <aura:attribute name="age" type="Integer" />
     <aura:attribute name="gender" type="String" />
     <aura:attribute name="mobileNumber" type="String" />
@@ -34,4 +34,3 @@
         <lightning:button label="Submit" onclick="{!c.handleSubmit}" class="slds-m-top_medium" />
     </div>
 </aura:component>
- 
