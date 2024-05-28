@@ -80,6 +80,10 @@
                 <behavior>Edit</behavior>
                 <field>Numberofcontact__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Number_Of_Contacts__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
